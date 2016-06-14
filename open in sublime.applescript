@@ -90,9 +90,9 @@ using terms from application "Path Finder"
 		
 		-- open in Sublime
 		on st2(listOfAliases)
-			tell application "Sublime Text 2"
-				open listOfAliases
+			tell application "Sublime Text"
 				activate
+				open listOfAliases
 			end tell
 		end st2
 		
